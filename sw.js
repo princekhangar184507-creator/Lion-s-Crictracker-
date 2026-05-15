@@ -1,12 +1,12 @@
 // Lions CricTracker Service Worker
 // Caches the app shell and key assets for offline use
 
-const CACHE_NAME = 'lions-crictracker-v2';
-const RUNTIME_CACHE = 'lions-runtime-v2';
+const CACHE_NAME = 'lions-crictracker-v3';
+const RUNTIME_CACHE = 'lions-runtime-v3';
 
 // Assets to cache on install (app shell)
 const PRECACHE_ASSETS = [
-  './lions-crictracker.html',
+  './index.html',
   './manifest.json',
   './icon-192.svg',
   './icon-512.svg',
