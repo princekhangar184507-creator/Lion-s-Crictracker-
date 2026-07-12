@@ -1,0 +1,57 @@
+{
+  "name": "Lions CricTracker",
+  "short_name": "CricTracker",
+  "id": "/",
+  "description": "Cricket coaching and player progress tracker for Lions Cricket Academy. Log daily batting and bowling drills across every zone, follow a structured shot-by-shot technique guide with step-by-step key points, track XP and level progression, and stay connected with coaches and teammates through direct messages and team group chat.",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EFE4D0",
+  "theme_color": "#9C6F0B",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["sports", "education", "health"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cricket Guide",
+      "short_name": "Guide",
+      "description": "Jump straight to the shot-by-shot technique guide",
+      "url": "index.html?tab=guide",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Messages",
+      "short_name": "Messages",
+      "description": "Open DMs and team group chat",
+      "url": "index.html?tab=messages",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
